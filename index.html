@@ -1,1206 +1,1001 @@
 <!DOCTYPE html>
-<html lang="ru" class="page">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta name="theme-color" content="#111111" />
-		<title>Adesk-test</title>
-		<link
-			rel="preload"
-			href="fonts/GraphikLCG-Bold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/GraphikLCG-Medium.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/GraphikLCG-Regular.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/GraphikLCG-Semibold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="fonts/Hauora-Bold.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link rel="stylesheet" href="css/main.css" />
-		<script defer src="js/main.js"></script>
-	</head>
+<html
+    lang="ru"
+    class="page"
+>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="shortcut icon"
+            href="favicon.ico"
+            type="image/x-icon"
+        />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="ie=edge"
+        />
+        <meta
+            name="theme-color"
+            content="#111111"
+        />
+        <title>Adesk-test</title>
+        <link
+            rel="preload"
+            href="fonts/GraphikLCG-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="fonts/GraphikLCG-Medium.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="fonts/GraphikLCG-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="fonts/GraphikLCG-Semibold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="fonts/Hauora-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="stylesheet"
+            href="css/main.css"
+        />
+        <script
+            defer
+            src="js/main.js"
+        ></script>
+    </head>
 
-	<body class="page__body">
-		<div class="site-container">
-			<header class="header">
-				<div class="header__container">
-					<div class="header__container-inner">
-						<picture class="header__logo">
-							<source
-								srcset="../img/logo.webp"
-								type="image/webp"
-							/>
-							<img
-								loading="lazy"
-								src="../img/logo.png"
-								class="image"
-								width="104"
-								height="24"
-								alt="Логотип"
-							/>
-						</picture>
-						<nav class="nav" title="Навигационная панель">
-							<ul class="nav__list list-reset">
-								<li class="nav__item">
-									<a href="#" class="nav__link"
-										>Внедрить под ключ</a
-									>
-								</li>
-								<li class="nav__item">
-									<a href="#" class="nav__link">Отзывы</a>
-								</li>
-								<li class="nav__item">
-									<a href="#" class="nav__link">Цены</a>
-								</li>
-								<li class="nav__item">
-									<a href="#" class="nav__link">Блог</a>
-								</li>
-								<li class="nav__item">
-									<a href="#" class="nav__link">Помощь</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<div class="header__container-buttons">
-						<button class="btn-reset btn__primary header__btn">
-							Войти
-						</button>
-						<button
-							class="btn-reset btn__primary btn__primary-blue"
-						>
-							Зарегистрироваться
-						</button>
-						<button
-							class="burger header__burger"
-							aria-label="Открыть меню"
-						>
-							<span class="burger__line"></span>
-						</button>
-					</div>
-				</div>
-			</header>
+    <body class="page__body">
+        <div class="site-container">
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__container-inner">
+                        <img
+                            loading="lazy"
+                            src="../img/logo.webp"
+                            class="image header__logo"
+                            width="104"
+                            height="24"
+                            alt="Логотип"
+                        />
+                        <nav
+                            class="nav"
+                            title="Навигационная панель"
+                        >
+                            <ul class="nav__list list-reset">
+                                <li class="nav__item">
+                                    <a
+                                        href="#"
+                                        class="nav__link"
+                                        >Внедрить под ключ</a
+                                    >
+                                </li>
+                                <li class="nav__item">
+                                    <a
+                                        href="#"
+                                        class="nav__link"
+                                        >Отзывы</a
+                                    >
+                                </li>
+                                <li class="nav__item">
+                                    <a
+                                        href="#"
+                                        class="nav__link"
+                                        >Цены</a
+                                    >
+                                </li>
+                                <li class="nav__item">
+                                    <a
+                                        href="#"
+                                        class="nav__link"
+                                        >Блог</a
+                                    >
+                                </li>
+                                <li class="nav__item">
+                                    <a
+                                        href="#"
+                                        class="nav__link"
+                                        >Помощь</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__container-buttons">
+                        <button class="btn-reset btn__primary header__btn">Войти</button>
+                        <button class="btn-reset btn__primary btn__primary-blue">Зарегистрироваться</button>
+                        <button
+                            class="burger header__burger"
+                            aria-label="Открыть меню"
+                        >
+                            <span class="burger__line"></span>
+                        </button>
+                    </div>
+                </div>
+            </header>
 
-			<main class="main">
-				<section class="hero">
-					<div class="container hero__container">
-						<h1 class="hero__title title__primary">
-							Платите только за то, что нужно вам
-						</h1>
-						<p class="hero__text">
-							Тарифы для задач любого масштаба — стоимостью как
-							карманные расходы у детей. Первые 14 дней —
-							<span class="hero__text-bold">бесплатно</span> и без
-							каких-либо ограничений.
-						</p>
-					</div>
-				</section>
-				<section class="billing">
-					<div class="container billing__container">
-						<ul class="billing__list list-reset">
-							<li class="billing__item billing__item-pink">
-								<h4 class="billing__title">Тариф «Первый»</h4>
-								<p class="billing__details">
-									Полный пакет опций для максимального
-									результата
-								</p>
-								<p class="billing__price">2 499 ₽</p>
-								<p class="billing__timetable">
-									в месяц при оплате за год
-								</p>
-								<ul class="billing__users list-reset">
-									<li
-										class="billing__user billing__user-first"
-									>
-										<img
-											loading="lazy"
-											src="./img/user.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>10+ пользователей</span
-										>
-									</li>
-									<li class="billing__user">
-										<img
-											loading="lazy"
-											src="./img/company.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>5+ юридических лиц</span
-										>
-									</li>
-								</ul>
-								<ul class="billing__options list-reset">
-									<li
-										class="billing__option billing__option-true"
-									>
-										Неограниченные счета
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Учет по проектам
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о движении денег
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о прибылях и убытках
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Настройка прав доступа
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Бюджеты и план-факт анализ
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Согласование платежей
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Кредиты
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Основные средства
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Расширенная аналитика
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Прикрепление файлов
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Приоритетная поддержка
-									</li>
-								</ul>
-								<button
-									class="btn-reset btn__primary btn__primary-pink billing__btn"
-								>
-									Протестировать
-								</button>
-							</li>
-							<li class="billing__item billing__item-green">
-								<h4 class="billing__title">Тариф «Бизнес»</h4>
-								<p class="billing__details">
-									Инструмент для улучшения экономики бизнеса
-								</p>
-								<p class="billing__price">2 082 ₽</p>
-								<p class="billing__timetable">
-									в месяц при оплате за год
-								</p>
-								<ul class="billing__users list-reset">
-									<li
-										class="billing__user billing__user-first"
-									>
-										<img
-											loading="lazy"
-											src="./img/user.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>3+ пользователей</span
-										>
-									</li>
-									<li class="billing__user">
-										<img
-											loading="lazy"
-											src="./img/company.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>3+ юридических лиц</span
-										>
-									</li>
-								</ul>
-								<ul class="billing__options list-reset">
-									<li
-										class="billing__option billing__option-true"
-									>
-										Неограниченные счета
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Учет по проектам
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о движении денег
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о прибылях и убытках
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Настройка прав доступа
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Бюджеты и план-факт анализ
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Согласование платежей
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Кредиты
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Основные средства
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Расширенная аналитика
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Прикрепление файлов
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Приоритетная поддержка
-									</li>
-								</ul>
-								<button
-									class="btn-reset btn__primary btn__primary-green billing__btn"
-								>
-									Протестировать
-								</button>
-							</li>
-							<li class="billing__item billing__item-blue">
-								<h4 class="billing__title">Тариф «Комфорт»</h4>
-								<p class="billing__details">
-									Подходит для стартапов и микробизнеса
-								</p>
-								<p class="billing__price">1 749 ₽</p>
-								<p class="billing__timetable">
-									в месяц при оплате за год
-								</p>
-								<ul class="billing__users list-reset">
-									<li
-										class="billing__user billing__user-first"
-									>
-										<img
-											loading="lazy"
-											src="./img/user.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>3 пользователя</span
-										>
-									</li>
-									<li class="billing__user">
-										<img
-											loading="lazy"
-											src="./img/company.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>2 юридических лица</span
-										>
-									</li>
-								</ul>
-								<ul class="billing__options list-reset">
-									<li
-										class="billing__option billing__option-true"
-									>
-										Неограниченные счета
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Учет по проектам
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о движении денег
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о прибылях и убытках
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Настройка прав доступа
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Бюджеты и план-факт анализ
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Согласование платежей
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Кредиты
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Основные средства
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Расширенная аналитика
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Прикрепление файлов
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Приоритетная поддержка
-									</li>
-								</ul>
-								<button
-									class="btn-reset btn__primary btn__primary-blue billing__btn"
-								>
-									Протестировать
-								</button>
-							</li>
-							<li class="billing__item billing__item-grey">
-								<h4 class="billing__title">Тариф «Эконом»</h4>
-								<p class="billing__details">
-									Подходит для фрилансеров и самозанятых
-								</p>
-								<p class="billing__price">833 ₽</p>
-								<p class="billing__timetable">
-									в месяц при оплате за год
-								</p>
-								<ul class="billing__users list-reset">
-									<li
-										class="billing__user billing__user-first"
-									>
-										<img
-											loading="lazy"
-											src="./img/user.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>1 пользователь</span
-										>
-									</li>
-									<li class="billing__user">
-										<img
-											loading="lazy"
-											src="./img/company.svg"
-											class="image billing__icon"
-											width="16"
-											height="16"
-											alt="Иконка пользователя"
-										/>
-										<span class="billing__text"
-											>1 юридическое лицо</span
-										>
-									</li>
-								</ul>
-								<ul class="billing__options list-reset">
-									<li
-										class="billing__option billing__option-true"
-									>
-										Неограниченные счета
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Учет по проектам
-									</li>
-									<li
-										class="billing__option billing__option-true"
-									>
-										Отчет о движении денег
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Отчет о прибылях и убытках
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Настройка прав доступа
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Бюджеты и план-факт анализ
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Согласование платежей
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Кредиты
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Основные средства
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Расширенная аналитика
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Прикрепление файлов
-									</li>
-									<li
-										class="billing__option billing__option-false"
-									>
-										Приоритетная поддержка
-									</li>
-								</ul>
-								<button
-									class="btn-reset btn__primary btn__primary billing__btn"
-								>
-									Протестировать
-								</button>
-							</li>
-						</ul>
-					</div>
-				</section>
+            <main class="main">
+                <section class="hero">
+                    <div class="container hero__container">
+                        <h1 class="hero__title title__primary">Платите только за то, что нужно вам</h1>
+                        <p class="hero__text">
+                            Тарифы для задач любого масштаба — стоимостью как карманные расходы у детей. Первые 14 дней —
+                            <span class="hero__text-bold">бесплатно</span> и без каких-либо ограничений.
+                        </p>
+                    </div>
+                </section>
+                <section class="billing">
+                    <div class="container billing__container">
+                        <ul class="billing__list list-reset">
+                            <li class="billing__item billing__item-pink">
+                                <h4 class="billing__title">Тариф «Первый»</h4>
+                                <p class="billing__details">Полный пакет опций для максимального результата</p>
+                                <p class="billing__price">2 499 ₽</p>
+                                <p class="billing__timetable">в месяц при оплате за год</p>
+                                <ul class="billing__users list-reset">
+                                    <li class="billing__user billing__user-first">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/user.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">10+ пользователей</span>
+                                    </li>
+                                    <li class="billing__user">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/company.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">5+ юридических лиц</span>
+                                    </li>
+                                </ul>
+                                <ul class="billing__options list-reset">
+                                    <li class="billing__option billing__option-true">Неограниченные счета</li>
+                                    <li class="billing__option billing__option-true">Учет по проектам</li>
+                                    <li class="billing__option billing__option-true">Отчет о движении денег</li>
+                                    <li class="billing__option billing__option-true">Отчет о прибылях и убытках</li>
+                                    <li class="billing__option billing__option-true">Настройка прав доступа</li>
+                                    <li class="billing__option billing__option-true">Бюджеты и план-факт анализ</li>
+                                    <li class="billing__option billing__option-true">Согласование платежей</li>
+                                    <li class="billing__option billing__option-true">Кредиты</li>
+                                    <li class="billing__option billing__option-true">Основные средства</li>
+                                    <li class="billing__option billing__option-true">Расширенная аналитика</li>
+                                    <li class="billing__option billing__option-true">Прикрепление файлов</li>
+                                    <li class="billing__option billing__option-true">Приоритетная поддержка</li>
+                                </ul>
+                                <button class="btn-reset btn__primary btn__primary-pink billing__btn">Протестировать</button>
+                            </li>
+                            <li class="billing__item billing__item-green">
+                                <h4 class="billing__title">Тариф «Бизнес»</h4>
+                                <p class="billing__details">Инструмент для улучшения экономики бизнеса</p>
+                                <p class="billing__price">2 082 ₽</p>
+                                <p class="billing__timetable">в месяц при оплате за год</p>
+                                <ul class="billing__users list-reset">
+                                    <li class="billing__user billing__user-first">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/user.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">3+ пользователей</span>
+                                    </li>
+                                    <li class="billing__user">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/company.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">3+ юридических лиц</span>
+                                    </li>
+                                </ul>
+                                <ul class="billing__options list-reset">
+                                    <li class="billing__option billing__option-true">Неограниченные счета</li>
+                                    <li class="billing__option billing__option-true">Учет по проектам</li>
+                                    <li class="billing__option billing__option-true">Отчет о движении денег</li>
+                                    <li class="billing__option billing__option-true">Отчет о прибылях и убытках</li>
+                                    <li class="billing__option billing__option-true">Настройка прав доступа</li>
+                                    <li class="billing__option billing__option-true">Бюджеты и план-факт анализ</li>
+                                    <li class="billing__option billing__option-true">Согласование платежей</li>
+                                    <li class="billing__option billing__option-false">Кредиты</li>
+                                    <li class="billing__option billing__option-false">Основные средства</li>
+                                    <li class="billing__option billing__option-false">Расширенная аналитика</li>
+                                    <li class="billing__option billing__option-false">Прикрепление файлов</li>
+                                    <li class="billing__option billing__option-false">Приоритетная поддержка</li>
+                                </ul>
+                                <button class="btn-reset btn__primary btn__primary-green billing__btn">Протестировать</button>
+                            </li>
+                            <li class="billing__item billing__item-blue">
+                                <h4 class="billing__title">Тариф «Комфорт»</h4>
+                                <p class="billing__details">Подходит для стартапов и микробизнеса</p>
+                                <p class="billing__price">1 749 ₽</p>
+                                <p class="billing__timetable">в месяц при оплате за год</p>
+                                <ul class="billing__users list-reset">
+                                    <li class="billing__user billing__user-first">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/user.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">3 пользователя</span>
+                                    </li>
+                                    <li class="billing__user">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/company.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">2 юридических лица</span>
+                                    </li>
+                                </ul>
+                                <ul class="billing__options list-reset">
+                                    <li class="billing__option billing__option-true">Неограниченные счета</li>
+                                    <li class="billing__option billing__option-true">Учет по проектам</li>
+                                    <li class="billing__option billing__option-true">Отчет о движении денег</li>
+                                    <li class="billing__option billing__option-true">Отчет о прибылях и убытках</li>
+                                    <li class="billing__option billing__option-false">Настройка прав доступа</li>
+                                    <li class="billing__option billing__option-false">Бюджеты и план-факт анализ</li>
+                                    <li class="billing__option billing__option-false">Согласование платежей</li>
+                                    <li class="billing__option billing__option-false">Кредиты</li>
+                                    <li class="billing__option billing__option-false">Основные средства</li>
+                                    <li class="billing__option billing__option-false">Расширенная аналитика</li>
+                                    <li class="billing__option billing__option-false">Прикрепление файлов</li>
+                                    <li class="billing__option billing__option-false">Приоритетная поддержка</li>
+                                </ul>
+                                <button class="btn-reset btn__primary btn__primary-blue billing__btn">Протестировать</button>
+                            </li>
+                            <li class="billing__item billing__item-grey">
+                                <h4 class="billing__title">Тариф «Эконом»</h4>
+                                <p class="billing__details">Подходит для фрилансеров и самозанятых</p>
+                                <p class="billing__price">833 ₽</p>
+                                <p class="billing__timetable">в месяц при оплате за год</p>
+                                <ul class="billing__users list-reset">
+                                    <li class="billing__user billing__user-first">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/user.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">1 пользователь</span>
+                                    </li>
+                                    <li class="billing__user">
+                                        <img
+                                            loading="lazy"
+                                            src="./img/company.svg"
+                                            class="image billing__icon"
+                                            width="16"
+                                            height="16"
+                                            alt="Иконка пользователя"
+                                        />
+                                        <span class="billing__text">1 юридическое лицо</span>
+                                    </li>
+                                </ul>
+                                <ul class="billing__options list-reset">
+                                    <li class="billing__option billing__option-true">Неограниченные счета</li>
+                                    <li class="billing__option billing__option-true">Учет по проектам</li>
+                                    <li class="billing__option billing__option-true">Отчет о движении денег</li>
+                                    <li class="billing__option billing__option-false">Отчет о прибылях и убытках</li>
+                                    <li class="billing__option billing__option-false">Настройка прав доступа</li>
+                                    <li class="billing__option billing__option-false">Бюджеты и план-факт анализ</li>
+                                    <li class="billing__option billing__option-false">Согласование платежей</li>
+                                    <li class="billing__option billing__option-false">Кредиты</li>
+                                    <li class="billing__option billing__option-false">Основные средства</li>
+                                    <li class="billing__option billing__option-false">Расширенная аналитика</li>
+                                    <li class="billing__option billing__option-false">Прикрепление файлов</li>
+                                    <li class="billing__option billing__option-false">Приоритетная поддержка</li>
+                                </ul>
+                                <button class="btn-reset btn__primary btn__primary billing__btn">Протестировать</button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
-				<section class="start">
-					<div class="container start__container">
-						<picture class="start__image">
-							<source
-								srcset="../img/man.webp"
-								type="image/webp"
-							/>
-							<img
-								loading="lazy"
-								src="../img/man.png"
-								class="image"
-								width="168"
-								height="220"
-								alt="Изображение мужчины"
-							/>
-						</picture>
-						<div class="start__content">
-							<h3 class="start__title">
-								Не можете определиться с тарифом?
-							</h3>
-							<p class="start__text">
-								Давайте мы проведем бесплатную демонстрацию
-								Adesk, на которой расскажем, как устроен сервис,
-								покажем весь функционал и поможем выбрать тариф,
-								который наиболее подходит для вашего бизнеса.
-							</p>
-							<button class="btn-reset btn__primary start__btn">
-								Записаться на демо
-							</button>
-						</div>
-					</div>
-				</section>
+                <section class="start">
+                    <div class="container start__container">
+                        <picture class="start__image">
+                            <source
+                                srcset="../img/man.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                loading="lazy"
+                                src="../img/man.png"
+                                class="image"
+                                width="168"
+                                height="220"
+                                alt="Изображение мужчины"
+                            />
+                        </picture>
+                        <div class="start__content">
+                            <h3 class="start__title">Не можете определиться с тарифом?</h3>
+                            <p class="start__text">Давайте мы проведем бесплатную демонстрацию Adesk, на которой расскажем, как устроен сервис, покажем весь функционал и поможем выбрать тариф, который наиболее подходит для вашего бизнеса.</p>
+                            <button class="btn-reset btn__primary start__btn">Записаться на демо</button>
+                        </div>
+                    </div>
+                </section>
 
-				<section class="consulting">
-					<div class="container consulting__container">
-						<h2 class="title__primary consulting__title">
-							Внедрим управленческий учет в вашей компании
-						</h2>
-						<ul class="consulting__advantages list-reset">
-							<li class="consulting__item">
-								<div class="consulting__marker">
-									<div class="consulting__marker-bg"></div>
-									<div class="consulting__marker-text">1</div>
-								</div>
-								Вы получите полностью работоспособную систему
-								управленческого учета
-							</li>
-							<li class="consulting__item">
-								<div class="consulting__marker">
-									<div class="consulting__marker-bg"></div>
-									<div class="consulting__marker-text">2</div>
-								</div>
-								Вам не придется тратить время на самостоятельное
-								изучение тонкостей
-							</li>
-							<li class="consulting__item">
-								<div class="consulting__marker">
-									<div class="consulting__marker-bg"></div>
-									<div class="consulting__marker-text">3</div>
-								</div>
-								Мы будем сопровождать вас в течение первых
-								месяцев работы
-							</li>
-						</ul>
-						<button
-							class="btn-reset btn__primary btn__primary-darkblue consulting__btn"
-						>
-							Получить консультацию
-						</button>
-					</div>
-				</section>
+                <section class="consulting">
+                    <div class="container consulting__container">
+                        <h2 class="title__primary consulting__title">Внедрим управленческий учет в вашей компании</h2>
+                        <ul class="consulting__advantages list-reset">
+                            <li class="consulting__item">
+                                <div class="consulting__marker">
+                                    <div class="consulting__marker-bg"></div>
+                                    <div class="consulting__marker-text">1</div>
+                                </div>
+                                Вы получите полностью работоспособную систему управленческого учета
+                            </li>
+                            <li class="consulting__item">
+                                <div class="consulting__marker">
+                                    <div class="consulting__marker-bg"></div>
+                                    <div class="consulting__marker-text">2</div>
+                                </div>
+                                Вам не придется тратить время на самостоятельное изучение тонкостей
+                            </li>
+                            <li class="consulting__item">
+                                <div class="consulting__marker">
+                                    <div class="consulting__marker-bg"></div>
+                                    <div class="consulting__marker-text">3</div>
+                                </div>
+                                Мы будем сопровождать вас в течение первых месяцев работы
+                            </li>
+                        </ul>
+                        <button class="btn-reset btn__primary btn__primary-darkblue consulting__btn">Получить консультацию</button>
+                    </div>
+                </section>
 
-				<section class="faq">
-					<div class="container faq__container">
-						<h2 class="title__secondary faq__title">
-							Вопросы и ответы
-						</h2>
-						<ul class="faq__list list-reset">
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										Зачем нужен Adesk, если есть Excel?
-									</button>
-								</div>
-								<div class="faq__content" aria-hidden="true">
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											Эксель — замечательный инструмент,
-											но отнимает очень много времени и
-											увеличивает шанс допустить ошибку
-										</li>
-										<li class="faq__answer">
-											Особенно когда в нём работают
-											несколько пользователей
-										</li>
-										<li class="faq__answer">
-											Но самая главная проблема Экселя —
-											это то, что в нем нет возможностей
-											для автоматизации. Многие рутинные
-											операции приходится делать вручную,
-											что является очень дорогим
-											удовольствием для предпринимателей.
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										А если у нас есть бухгалтер?
-									</button>
-								</div>
-								<div class="faq__content" aria-hidden="true">
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											О, бухгалтерский и управленческий
-											учёт — совершенно разные вещи!
-										</li>
-										<li class="faq__answer">
-											Основная задача бухгалтера —
-											правильно и вовремя отчитываться
-											перед государством
-										</li>
-										<li class="faq__answer">
-											Управленческий учёт нужен в первую
-											очередь для предпринимателя или
-											собственника бизнеса для того, чтобы
-											в реальном времени иметь ответ на
-											вопрос «Как идут дела у компании?» и
-											принимать правильные управленческие
-											решения.
-										</li>
-										<li class="faq__answer">
-											Или у вас в бизнесе управленческие
-											решения принимает бухгалтер? 🙂
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										А нашей компании подойдёт Adesk?
-									</button>
-								</div>
-								<div class="faq__content" aria-hidden="true">
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											Наши клиенты — это малый бизнес из
-											самых разных отраслей экономики с
-											доходом от 500 тысяч до 15-20 млн
-											рублей в месяц. Как правило, у них
-											несколько счетов и ООО/ИП. Примерно
-											половина клиентов — проектные
-											компании, которые работают над
-											заказами своих клиентов.
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										Можно ли использовать Adesk с телефона?
-									</button>
-								</div>
-								<div class="faq__content" aria-hidden="true">
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											Да, у нас есть мобильное приложение
-											для
-											<a href="#" class="faq__link"
-												>iOS</a
-											>
-											и для
-											<a href="#" class="faq__link"
-												>Android</a
-											>. К тому же у нас очень удобная
-											мобильная версия, а так же
-											<a href="#" class="faq__link"
-												>бот для Telegram</a
-											>, которому вы просто можете писать
-											о своих расходах и он будет
-											автоматически добавлять их в
-											систему. Кроме этого, он будет
-											напоминать вам о предстоящих
-											платежах и давать сводку по
-											состоянию дел.
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										Могу ли я приглашать других
-										пользователей в систему?
-									</button>
-								</div>
-								<div class="faq__content" aria-hidden="true">
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											Конечно! Более того, разным
-											сотрудникам вы можете раздать разные
-											права доступа. Например, кто-то из
-											сотрудников может иметь доступ на
-											внесение данных только по
-											определенному счету и при этом не
-											иметь доступа ни к каким отчетам.
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div class="faq__container-btn">
-									<button
-										class="btn-reset faq__btn btn__primary btn__primary-blue"
-										aria-expanded="false"
-									>
-										Мне нужна помощь в освоении сервиса. Как
-										быть?
-									</button>
-								</div>
-								<div
-									class="faq__content faq__content-prestatic"
-									aria-hidden="true"
-								>
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											У нас есть YouTube-канал, а так же
-											сайт help.adesk.ru с простыми и
-											понятными статьями, где вы,
-											возможно, сможете найти ответы на
-											свои вопросы.
-										</li>
-										<li class="faq__answer">
-											Не стесняйтесь писать нам в чат, мы
-											очень активно отвечаем и с
-											удовольствием вам поможем.
-										</li>
-										<li class="faq__answer">
-											Чтобы сэкономить ваше время, мы
-											можем выделить вам помощника,
-											который за несколько онлайн-созвонов
-											обучит вас работе в сервисе. Услуга
-											предоставляется за дополнительную
-											плату.
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="faq__accordion">
-								<div
-									class="faq__content faq__content-static"
-									aria-hidden="false"
-								>
-									<ul class="faq__answers list-reset">
-										<li class="faq__answer">
-											Есть другой вопрос? Напишите нам в
-											чат в правом нижнем углу экрана.
-										</li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="menu">
-					<div class="menu__container-btn">
-						<button class="btn-reset btn__primary header__btn">
-							Войти
-						</button>
-						<button
-							class="btn-reset btn__primary btn__primary-blue menu__btn"
-						>
-							Зарегистрироваться
-						</button>
-					</div>
-					<nav class="nav menu__nav" title="Навигационная панель">
-						<ul class="nav__list list-reset">
-							<li class="nav__item">
-								<a href="#" class="nav__link"
-									>Внедрить под ключ</a
-								>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Отзывы</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Цены</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Блог</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Помощь</a>
-							</li>
-						</ul>
-					</nav>
-				</section>
-			</main>
-			<footer class="footer">
-				<div class="container footer__container">
-					<div class="footer__logo">
-						<img
-							loading="lazy"
-							src="./img/footer_logo.svg"
-							class="image footer__image"
-							width="220"
-							height="51"
-							alt="Логотип компании"
-						/>
-					</div>
-					<ul class="footer__social list-reset footer__social-top">
-						<li class="footer__icon-social">
-							<a href="#" class="footer__link-social">
-								<img
-									loading="lazy"
-									src="./img/footer-1.svg"
-									class="image footer__icon-social"
-									width="22"
-									height="22"
-									alt="Иконка telegramm"
-								/>
-							</a>
-						</li>
-						<li class="footer__icon-social">
-							<a href="#" class="footer__link-social">
-								<img
-									loading="lazy"
-									src="./img/footer-2.svg"
-									class="image footer__icon-social"
-									width="22"
-									height="22"
-									alt="Иконка facebook"
-								/>
-							</a>
-						</li>
-						<li class="footer__icon-social">
-							<a href="#" class="footer__link-social">
-								<img
-									loading="lazy"
-									src="./img/footer-3.svg"
-									class="image footer__icon-social"
-									width="22"
-									height="22"
-									alt="Иконка ВКонтакте"
-								/>
-							</a>
-						</li>
-						<li class="footer__icon-social">
-							<a href="#" class="footer__link-social">
-								<img
-									loading="lazy"
-									src="./img/footer-4.svg"
-									class="image footer__icon-social"
-									width="22"
-									height="22"
-									alt="Иконка Youtube"
-								/>
-							</a>
-						</li>
-						<li class="footer__icon-social">
-							<a href="#" class="footer__link-social">
-								<img
-									loading="lazy"
-									src="./img/footer-5.svg"
-									class="image footer__icon-social"
-									width="22"
-									height="22"
-									alt="Иконка Instagramm"
-								/>
-							</a>
-						</li>
-					</ul>
-					<ul class="footer__list list-reset">
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Adesk для бизнеса</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Digital-агенства</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Маркетинговые агенства</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Стартапы</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Кафе и рестораны</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Строительные компании</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Юридические фирмы</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Фрилансеры</a>
-						</li>
-					</ul>
-					<ul class="footer__list list-reset">
-						<li class="footer__item">
-							<a href="#" class="footer__link">Ресурсы</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Журнал о финансах</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								><img
-									loading="lazy"
-									src="./img/footer_pencil_link.svg"
-									class="image"
-									width="135"
-									height="19"
-									alt="Ссылка с иконкой карандаша"
-							/></a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Внедрение под ключ</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Партнерская программа</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Бонусы от партнеров</a
-							>
-						</li>
-					</ul>
-					<ul class="footer__list list-reset">
-						<li class="footer__item">
-							<a href="#" class="footer__link">Информация</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Документация по API</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link"
-								>Отзывы пользователей</a
-							>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Помощь</a>
-						</li>
-						<li class="footer__item">
-							<a href="#" class="footer__link">Информация</a>
-						</li>
-						<hr class="footer__line" />
-						<li class="footer__item">
-							<a
-								href="mailto:support@adesk.ru"
-								class="footer__email"
-							>
-								support@adesk.ru
-							</a>
-						</li>
-						<li class="footer__item">
-							<a
-								href="tel:+74951062100"
-								class="footer__link footer__tel"
-							>
-								+7 (495) 106-21-00
-							</a>
-						</li>
-					</ul>
-					<div class="footer__info footer__info-first">
-						<ul class="footer__payment list-reset">
-							<li class="footer__method">
-								<img
-									loading="lazy"
-									src="./img/visa.svg"
-									class="image footer__icon-method"
-									width="49"
-									height="24"
-									alt="Иконка Visa"
-								/>
-							</li>
-							<li class="footer__method">
-								<img
-									loading="lazy"
-									src="./img/mastercard.svg"
-									class="image footer__icon-method"
-									width="33"
-									height="24"
-									alt="Иконка Visa"
-								/>
-							</li>
-							<li class="footer__method">
-								<img
-									loading="lazy"
-									src="./img/tinkoff.svg"
-									class="image footer__icon-method"
-									width="104"
-									height="24"
-									alt="Иконка Visa"
-								/>
-							</li>
-						</ul>
-						<div class="footer__download">
-							<button class="footer__btn btn-reset">
-								<img
-									loading="lazy"
-									src="./img/apple.svg"
-									class="image footer__icon-market"
-									width="20"
-									height="20"
-									alt="Иконка Aplle"
-								/>
-								Appstore
-							</button>
-							<button class="footer__btn btn-reset">
-								<img
-									loading="lazy"
-									src="./img/google_play.svg"
-									class="image footer__icon-market"
-									width="20"
-									height="20"
-									alt="Иконка Google Play"
-								/>
-								Google Play
-							</button>
-						</div>
-					</div>
-					<hr class="footer__line footer__line-bigger" />
-					<div class="footer__info footer__info-last">
-						<ul class="footer__documents list-reset">
-							<li class="footer__doc">ООО "Адеск", 2022</li>
-							<li class="footer__doc footer__doc-hidden">
-								ИНН 7751182678
-							</li>
-							<li class="footer__doc">
-								<a href="#" class="footer__document"
-									>Политика конфиденциальности</a
-								>
-							</li>
-							<li class="footer__doc">
-								<a href="#" class="footer__document"
-									>Договор-оферта</a
-								>
-							</li>
-						</ul>
-						<ul
-							class="footer__social list-reset footer__social-bottom"
-						>
-							<li class="footer__icon-social">
-								<a href="#" class="footer__link-social">
-									<img
-										loading="lazy"
-										src="./img/footer-1.svg"
-										class="image footer__icon-social"
-										width="22"
-										height="22"
-										alt="Иконка telegramm"
-									/>
-								</a>
-							</li>
-							<li class="footer__icon-social">
-								<a href="#" class="footer__link-social">
-									<img
-										loading="lazy"
-										src="./img/footer-2.svg"
-										class="image footer__icon-social"
-										width="22"
-										height="22"
-										alt="Иконка facebook"
-									/>
-								</a>
-							</li>
-							<li class="footer__icon-social">
-								<a href="#" class="footer__link-social">
-									<img
-										loading="lazy"
-										src="./img/footer-3.svg"
-										class="image footer__icon-social"
-										width="22"
-										height="22"
-										alt="Иконка ВКонтакте"
-									/>
-								</a>
-							</li>
-							<li class="footer__icon-social">
-								<a href="#" class="footer__link-social">
-									<img
-										loading="lazy"
-										src="./img/footer-4.svg"
-										class="image footer__icon-social"
-										width="22"
-										height="22"
-										alt="Иконка Youtube"
-									/>
-								</a>
-							</li>
-							<li class="footer__icon-social">
-								<a href="#" class="footer__link-social">
-									<img
-										loading="lazy"
-										src="./img/footer-5.svg"
-										class="image footer__icon-social"
-										width="22"
-										height="22"
-										alt="Иконка Instagramm"
-									/>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</body>
+                <section class="faq">
+                    <div class="container faq__container">
+                        <h2 class="title__secondary faq__title">Вопросы и ответы</h2>
+                        <ul class="faq__list list-reset">
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        Зачем нужен Adesk, если есть Excel?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">Эксель — замечательный инструмент, но отнимает очень много времени и увеличивает шанс допустить ошибку</li>
+                                        <li class="faq__answer">Особенно когда в нём работают несколько пользователей</li>
+                                        <li class="faq__answer">Но самая главная проблема Экселя — это то, что в нем нет возможностей для автоматизации. Многие рутинные операции приходится делать вручную, что является очень дорогим удовольствием для предпринимателей.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        А если у нас есть бухгалтер?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">О, бухгалтерский и управленческий учёт — совершенно разные вещи!</li>
+                                        <li class="faq__answer">Основная задача бухгалтера — правильно и вовремя отчитываться перед государством</li>
+                                        <li class="faq__answer">Управленческий учёт нужен в первую очередь для предпринимателя или собственника бизнеса для того, чтобы в реальном времени иметь ответ на вопрос «Как идут дела у компании?» и принимать правильные управленческие решения.</li>
+                                        <li class="faq__answer">Или у вас в бизнесе управленческие решения принимает бухгалтер? 🙂</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        А нашей компании подойдёт Adesk?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">Наши клиенты — это малый бизнес из самых разных отраслей экономики с доходом от 500 тысяч до 15-20 млн рублей в месяц. Как правило, у них несколько счетов и ООО/ИП. Примерно половина клиентов — проектные компании, которые работают над заказами своих клиентов.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        Можно ли использовать Adesk с телефона?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">
+                                            Да, у нас есть мобильное приложение для
+                                            <a
+                                                href="#"
+                                                class="faq__link"
+                                                >iOS</a
+                                            >
+                                            и для
+                                            <a
+                                                href="#"
+                                                class="faq__link"
+                                                >Android</a
+                                            >. К тому же у нас очень удобная мобильная версия, а так же
+                                            <a
+                                                href="#"
+                                                class="faq__link"
+                                                >бот для Telegram</a
+                                            >, которому вы просто можете писать о своих расходах и он будет автоматически добавлять их в систему. Кроме этого, он будет напоминать вам о предстоящих платежах и давать сводку по состоянию дел.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        Могу ли я приглашать других пользователей в систему?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">Конечно! Более того, разным сотрудникам вы можете раздать разные права доступа. Например, кто-то из сотрудников может иметь доступ на внесение данных только по определенному счету и при этом не иметь доступа ни к каким отчетам.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div class="faq__container-btn">
+                                    <button
+                                        class="btn-reset faq__btn btn__primary btn__primary-blue"
+                                        aria-expanded="false"
+                                    >
+                                        Мне нужна помощь в освоении сервиса. Как быть?
+                                    </button>
+                                </div>
+                                <div
+                                    class="faq__content faq__content-prestatic"
+                                    aria-hidden="true"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">У нас есть YouTube-канал, а так же сайт help.adesk.ru с простыми и понятными статьями, где вы, возможно, сможете найти ответы на свои вопросы.</li>
+                                        <li class="faq__answer">Не стесняйтесь писать нам в чат, мы очень активно отвечаем и с удовольствием вам поможем.</li>
+                                        <li class="faq__answer">Чтобы сэкономить ваше время, мы можем выделить вам помощника, который за несколько онлайн-созвонов обучит вас работе в сервисе. Услуга предоставляется за дополнительную плату.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="faq__accordion">
+                                <div
+                                    class="faq__content faq__content-static"
+                                    aria-hidden="false"
+                                >
+                                    <ul class="faq__answers list-reset">
+                                        <li class="faq__answer">Есть другой вопрос? Напишите нам в чат в правом нижнем углу экрана.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="menu">
+                    <div class="menu__container-btn">
+                        <button class="btn-reset btn__primary header__btn">Войти</button>
+                        <button class="btn-reset btn__primary btn__primary-blue menu__btn">Зарегистрироваться</button>
+                    </div>
+                    <nav
+                        class="nav menu__nav"
+                        title="Навигационная панель"
+                    >
+                        <ul class="nav__list list-reset">
+                            <li class="nav__item">
+                                <a
+                                    href="#"
+                                    class="nav__link"
+                                    >Внедрить под ключ</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="#"
+                                    class="nav__link"
+                                    >Отзывы</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="#"
+                                    class="nav__link"
+                                    >Цены</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="#"
+                                    class="nav__link"
+                                    >Блог</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a
+                                    href="#"
+                                    class="nav__link"
+                                    >Помощь</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer__logo">
+                        <img
+                            loading="lazy"
+                            src="./img/footer_logo.svg"
+                            class="image footer__image"
+                            width="220"
+                            height="51"
+                            alt="Логотип компании"
+                        />
+                    </div>
+                    <ul class="footer__social list-reset footer__social-top">
+                        <li class="footer__icon-social">
+                            <a
+                                href="#"
+                                class="footer__link-social"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="./img/footer-1.svg"
+                                    class="image footer__icon-social"
+                                    width="22"
+                                    height="22"
+                                    alt="Иконка telegramm"
+                                />
+                            </a>
+                        </li>
+                        <li class="footer__icon-social">
+                            <a
+                                href="#"
+                                class="footer__link-social"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="./img/footer-2.svg"
+                                    class="image footer__icon-social"
+                                    width="22"
+                                    height="22"
+                                    alt="Иконка facebook"
+                                />
+                            </a>
+                        </li>
+                        <li class="footer__icon-social">
+                            <a
+                                href="#"
+                                class="footer__link-social"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="./img/footer-3.svg"
+                                    class="image footer__icon-social"
+                                    width="22"
+                                    height="22"
+                                    alt="Иконка ВКонтакте"
+                                />
+                            </a>
+                        </li>
+                        <li class="footer__icon-social">
+                            <a
+                                href="#"
+                                class="footer__link-social"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="./img/footer-4.svg"
+                                    class="image footer__icon-social"
+                                    width="22"
+                                    height="22"
+                                    alt="Иконка Youtube"
+                                />
+                            </a>
+                        </li>
+                        <li class="footer__icon-social">
+                            <a
+                                href="#"
+                                class="footer__link-social"
+                            >
+                                <img
+                                    loading="lazy"
+                                    src="./img/footer-5.svg"
+                                    class="image footer__icon-social"
+                                    width="22"
+                                    height="22"
+                                    alt="Иконка Instagramm"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Adesk для бизнеса</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Digital-агенства</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Маркетинговые агенства</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Стартапы</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Кафе и рестораны</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Строительные компании</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Юридические фирмы</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Фрилансеры</a
+                            >
+                        </li>
+                    </ul>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Ресурсы</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Журнал о финансах</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                ><img
+                                    loading="lazy"
+                                    src="./img/footer_pencil_link.svg"
+                                    class="image"
+                                    width="135"
+                                    height="19"
+                                    alt="Ссылка с иконкой карандаша"
+                            /></a>
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Внедрение под ключ</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Партнерская программа</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Бонусы от партнеров</a
+                            >
+                        </li>
+                    </ul>
+                    <ul class="footer__list list-reset">
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Информация</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Документация по API</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Отзывы пользователей</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Помощь</a
+                            >
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="#"
+                                class="footer__link"
+                                >Информация</a
+                            >
+                        </li>
+                        <hr class="footer__line" />
+                        <li class="footer__item">
+                            <a
+                                href="mailto:support@adesk.ru"
+                                class="footer__email"
+                            >
+                                support@adesk.ru
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a
+                                href="tel:+74951062100"
+                                class="footer__link footer__tel"
+                            >
+                                +7 (495) 106-21-00
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer__info footer__info-first">
+                        <ul class="footer__payment list-reset">
+                            <li class="footer__method">
+                                <img
+                                    loading="lazy"
+                                    src="./img/visa.svg"
+                                    class="image footer__icon-method"
+                                    width="49"
+                                    height="24"
+                                    alt="Иконка Visa"
+                                />
+                            </li>
+                            <li class="footer__method">
+                                <img
+                                    loading="lazy"
+                                    src="./img/mastercard.svg"
+                                    class="image footer__icon-method"
+                                    width="33"
+                                    height="24"
+                                    alt="Иконка Visa"
+                                />
+                            </li>
+                            <li class="footer__method">
+                                <img
+                                    loading="lazy"
+                                    src="./img/tinkoff.svg"
+                                    class="image footer__icon-method"
+                                    width="104"
+                                    height="24"
+                                    alt="Иконка Visa"
+                                />
+                            </li>
+                        </ul>
+                        <div class="footer__download">
+                            <button class="footer__btn btn-reset">
+                                <img
+                                    loading="lazy"
+                                    src="./img/apple.svg"
+                                    class="image footer__icon-market"
+                                    width="20"
+                                    height="20"
+                                    alt="Иконка Aplle"
+                                />
+                                Appstore
+                            </button>
+                            <button class="footer__btn btn-reset">
+                                <img
+                                    loading="lazy"
+                                    src="./img/google_play.svg"
+                                    class="image footer__icon-market"
+                                    width="20"
+                                    height="20"
+                                    alt="Иконка Google Play"
+                                />
+                                Google Play
+                            </button>
+                        </div>
+                    </div>
+                    <hr class="footer__line footer__line-bigger" />
+                    <div class="footer__info footer__info-last">
+                        <ul class="footer__documents list-reset">
+                            <li class="footer__doc">ООО "Адеск", 2022</li>
+                            <li class="footer__doc footer__doc-hidden">ИНН 7751182678</li>
+                            <li class="footer__doc">
+                                <a
+                                    href="#"
+                                    class="footer__document"
+                                    >Политика конфиденциальности</a
+                                >
+                            </li>
+                            <li class="footer__doc">
+                                <a
+                                    href="#"
+                                    class="footer__document"
+                                    >Договор-оферта</a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="footer__social list-reset footer__social-bottom">
+                            <li class="footer__icon-social">
+                                <a
+                                    href="#"
+                                    class="footer__link-social"
+                                >
+                                    <img
+                                        loading="lazy"
+                                        src="./img/footer-1.svg"
+                                        class="image footer__icon-social"
+                                        width="22"
+                                        height="22"
+                                        alt="Иконка telegramm"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__icon-social">
+                                <a
+                                    href="#"
+                                    class="footer__link-social"
+                                >
+                                    <img
+                                        loading="lazy"
+                                        src="./img/footer-2.svg"
+                                        class="image footer__icon-social"
+                                        width="22"
+                                        height="22"
+                                        alt="Иконка facebook"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__icon-social">
+                                <a
+                                    href="#"
+                                    class="footer__link-social"
+                                >
+                                    <img
+                                        loading="lazy"
+                                        src="./img/footer-3.svg"
+                                        class="image footer__icon-social"
+                                        width="22"
+                                        height="22"
+                                        alt="Иконка ВКонтакте"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__icon-social">
+                                <a
+                                    href="#"
+                                    class="footer__link-social"
+                                >
+                                    <img
+                                        loading="lazy"
+                                        src="./img/footer-4.svg"
+                                        class="image footer__icon-social"
+                                        width="22"
+                                        height="22"
+                                        alt="Иконка Youtube"
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer__icon-social">
+                                <a
+                                    href="#"
+                                    class="footer__link-social"
+                                >
+                                    <img
+                                        loading="lazy"
+                                        src="./img/footer-5.svg"
+                                        class="image footer__icon-social"
+                                        width="22"
+                                        height="22"
+                                        alt="Иконка Instagramm"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
