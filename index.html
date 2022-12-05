@@ -73,14 +73,20 @@
             <header class="header">
                 <div class="header__container">
                     <div class="header__container-inner">
-                        <img
-                            loading="lazy"
-                            src="../img/logo.webp"
-                            class="image header__logo"
-                            width="104"
-                            height="24"
-                            alt="Логотип"
-                        />
+                        <picture class="header__logo">
+                            <source
+                                srcset="img/logo.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                loading="lazy"
+                                src="img/logo.webp"
+                                class="image"
+                                width="104"
+                                height="24"
+                                alt="Логотип"
+                            />
+                        </picture>
                         <nav
                             class="nav"
                             title="Навигационная панель"
@@ -338,12 +344,12 @@
                     <div class="container start__container">
                         <picture class="start__image">
                             <source
-                                srcset="../img/man.webp"
+                                srcset="img/man.webp"
                                 type="image/webp"
                             />
                             <img
                                 loading="lazy"
-                                src="../img/man.png"
+                                src="img/man.png"
                                 class="image"
                                 width="168"
                                 height="220"
